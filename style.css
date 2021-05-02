@@ -41,7 +41,7 @@ body{
     color: darkorange;
 }
 input{
-    background: grey
+    background: grey;
 }
 .travel_mainDiv{
     border: 1px solid grey;
@@ -68,4 +68,10 @@ input{
 .school_li h4{
     border-bottom: 1px solid white;
     padding: 8px;
+}
+#map iframe{
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    height: 450px;
 }
